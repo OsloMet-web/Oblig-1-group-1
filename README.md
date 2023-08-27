@@ -8,8 +8,8 @@
 | - | - | style.css
 </code></pre>
 <h2 class="code-line" data-line-start=10 data-line-end=11 ><a id="Information_10"></a>Information</h2>
-<p class="has-line-data" data-line-start="11" data-line-end="14">Task: Oblig 1 (<a href="https://oslomet.instructure.com/courses/26764/assignments/77903">https://oslomet.instructure.com/courses/26764/assignments/77903</a>)<br>
-Group: Oblig-1-group-1 (<a href="https://oslomet.instructure.com/groups/108129">https://oslomet.instructure.com/groups/108129</a>)<br>
+<p class="has-line-data" data-line-start="11" data-line-end="14">Task: Oblig 1 (<a href="https://oslomet.instructure.com/courses/26764/assignments/77903">https://oslomet.instructure.com/courses/26764/assignments/77903</a>)</br>
+Group: Oblig-1-group-1 (<a href="https://oslomet.instructure.com/groups/108129">https://oslomet.instructure.com/groups/108129</a>)</br>
 Group Member: Nima, Victor, Julian</p>
 <h2 class="code-line" data-line-start=15 data-line-end=16 ><a id="Nav_15"></a>Nav</h2>
 <p class="has-line-data" data-line-start="16" data-line-end="18"><a href="https://classroom.github.com/a/c5dQSE64"><img src="https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg" alt="Review Assignment Due Date"></a><br>

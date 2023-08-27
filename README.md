@@ -1,4 +1,5 @@
 ## File Structure
+<pre>
 | index.html
 | - | pages/
 | - | - | b.html
@@ -6,7 +7,7 @@
 | - | - | script.js
 | - | style/
 | - | - | style.css
-
+</pre>
 ## Information
 Task: Oblig 1 (https://oslomet.instructure.com/courses/26764/assignments/77903)
 Group: Oblig-1-group-1 (https://oslomet.instructure.com/groups/108129)

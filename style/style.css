@@ -1,0 +1,83 @@
+/*Variable colors for javascript*/
+:root {
+    --nav-col: grey;
+}
+body {
+    /* Copied from: https://cssgradient.io/ */
+    background: linear-gradient(165deg, rgba(180, 177, 177, 1), rgba(69, 196, 252, 1));
+    background-attachment: fixed; /* Make background non repeating */
+
+}
+/* Seperate the page into a grid system, 3 columns (vertical seperation) and auto rows for undentified amount of horizontal seperations */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto; /* Seperate into 3 cols */
+    grid-auto-flow: row; /* Continues rows */
+}
+
+/* Content styling for simple grid-item */
+.content {
+    padding: 1rem;
+    text-align: center; /* Text from center */
+}
+
+
+/* Content styling for wanting to span it across the whole row */
+.content-one {
+    padding: 1rem;
+    text-align: center; 
+    grid-column: 1 / span 3; /* Start col 1 and drag across all 3 */
+}
+
+/* Content styling for wanting to span 2 items across 1 row */
+.content-two {
+    padding: 1rem;
+    text-align: center;
+    grid-template-columns: 1fr 1fr; /* Change col seperation from 3 to 2 */
+}
+
+/* General content styling */
+.item {
+    background-color: grey;
+    padding: 1rem;
+    text-align: start; /* Text from start */
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.item:hover { /* Change color on hover */
+    /* Copied from: https://cssgradient.io/ */
+    background: rgb(180,177,177);
+    background: -moz-linear-gradient(165deg, rgba(180,177,177,1) 50%, rgba(69,196,252,1) 100%);
+    background: -webkit-linear-gradient(165deg, rgba(180,177,177,1) 50%, rgba(69,196,252,1) 100%);
+    background: linear-gradient(165deg, rgba(180,177,177,1) 50%, rgba(69,196,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b4b1b1",endColorstr="#45c4fc",GradientType=1);
+}
+
+header {
+    display: flex;
+}
+
+.custButton1 {
+    padding: 10px 20px;
+    margin-right: 10px; 
+}
+.custButton2 {
+    padding: 10px 20px;
+    border: 1px solid #000;
+    margin-right: 10px; 
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Change of class => background color, timing */
+    animation: instantFadeInThenOut 1s ease-out forwards; /* Animation , duration , starts fast to slow, maintained state after animation*/
+}
+.custButton2.colorChanged {
+    background-color: var(--nav-col); /* New background color after click */
+}
+
+@keyframes instantFadeInThenOut { /* Animation */
+    0% {
+        background-color: var(--nav-col); /* Initial color on animation */
+    }
+    100% {
+        background-color: transparent; /* Fade away from initial */
+    }
+}

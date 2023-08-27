@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oblig 1:A</title>
+    <link rel="stylesheet" href="style\style.css"> <!--Stylesheet refrence-->
 </head>
 <body>
-    <h1>Hei</h1>
+    <!--Navigation Container-->
+    <header>
+        <div id="but1" class="custButton1">
+            oblig 1:A
+        </div>        
+        <!--JS to b page-->
+        <div id="but2" class="custButton2" onclick="clickNav('pages/b.html',event)">
+            ➤ oblig 1:B
+        </div>
+    </header>
+    
+    <!--Main page information Container-->
+    <main>
+        <!--Information on Data1100 oblig 1-->
+        <div class="grid">
+            <div class="content-one">
+                <h1>Information on Data1100</h1>
+            </div>
+            <!--Information on oblig 1:A-->
+            <div class="content-two">
+                <h2>oblig 1:A</h2>
+                <div class="item">
+                    <p>
+                        Paste in at least part of the text from an "Innovation camp" assignment or an DATA1100 hand-in. Ensure that there are at least two headings.
+                    </p> <br>
+                    <p>
+                        You should — but do not have to — collaborate on this page through Pull-request and Push-requests. You may collaborate through "mob programming" instead, where one person ("driver") writes while the rest ("mob") view the code on a shared screen and assists.                </p>
+                </div>
+            </div>
+            <!--Information on oblig 1:B-->
+            <div class="content-two">
+                <h2>oblig 1:B</h2>
+                <div class="item">
+                    <p>
+                        In this page, every student in the group enters their own student number as a heading, and a few lines about their old school in a paragraph. ("My VGS had the best canteen lay-out in the region. A space over two floors where people could 'see and be seen', or hide in a nook.")                </p> <br>
+                    <p>
+                        <b>
+                            You must do this through Pull-request and Push-requests! <br>
+                            OR <br>
+                            through updates (commits) directly in GitHub online
+                        </b>
+                        
+                    </p> <br>
+                    <p>
+                        In the log ("Commits") on GitHub, we expect to see every student in the group as a collaborator. <br>
+
+                        In each page, include a link from Page A to Page B, and vice versa.                
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script\script.js"></script> <!--Script refrence-->
 </body>
 </html>

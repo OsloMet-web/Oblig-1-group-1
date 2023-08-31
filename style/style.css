@@ -11,8 +11,8 @@ body {
 /* Seperate the page into a grid system, 3 columns (vertical seperation) and auto rows for undentified amount of horizontal seperations */
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto; /* Seperate into 3 cols */
-    grid-auto-flow: row; /* Continues rows */
+    grid-template-columns: auto auto auto auto; /* Seperate into 3 cols */
+    grid-auto-flow: auto; /* automatic row sizing */
 }
 
 /* Content styling for simple grid-item */
@@ -26,14 +26,14 @@ body {
 .content-one {
     padding: 1rem;
     text-align: center; 
-    grid-column: 1 / span 3; /* Start col 1 and drag across all 3 */
+    grid-column: 1 / span 4; /* Start col 1 and drag across all 4 */
 }
 
 /* Content styling for wanting to span 2 items across 1 row */
 .content-two {
     padding: 1rem;
     text-align: center;
-    grid-template-columns: 1fr 1fr; /* Change col seperation from 3 to 2 */
+    grid-column: span 2; 
 }
 
 /* General content styling */

@@ -8,9 +8,9 @@
 | - | - | style.css
 </code></pre>
 <h2 class="code-line" data-line-start=10 data-line-end=11 ><a id="Information_10"></a>Information</h2>
-<p class="has-line-data" data-line-start="11" data-line-end="14">Task: Oblig 1 (<a href="https://oslomet.instructure.com/courses/26764/assignments/77903">https://oslomet.instructure.com/courses/26764/assignments/77903</a>)</br>
-Group: Oblig-1-group-1 (<a href="https://oslomet.instructure.com/groups/108129">https://oslomet.instructure.com/groups/108129</a>)</br>
-Group Member: </br>
+<p class="has-line-data" data-line-start="11" data-line-end="14"><a href="https://oslomet.instructure.com/courses/26764/assignments/77903">Task: Oblig 1</a></br>
+Group:<a href="https://oslomet.instructure.com/groups/108129">Oblig-1-group-1</a></br>
+Group Members: </br>
 Nima (<a href="https://github.com/Nima52">Nima52</a>), </br>
 Julian (<a href="https://github.com/cobra4001">cobra4001</a>), </br>
 Sukhmani (<a href="https://github.com/Suukhii">Suukhii</a>), </br>
